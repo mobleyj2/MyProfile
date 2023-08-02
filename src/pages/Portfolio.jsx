@@ -1,10 +1,12 @@
 
-import movie from './moviemagic.png';
-import data from './12.png';
-import logo from './Shapes.png';
-import notes from './Notes.png';
-import study from './study.png';
-import pwa from './Jate.png';
+import movie from '/src/pages/moviemagic.png';
+import data from '/src/pages/12.png';
+import logo from '/src/pages/Shapes.png';
+import notes from '/src/pages/Notes.png';
+import study from '/src/pages/study.png';
+import pwa from '/src/pages/Jate.png';
+
+
 
 export default function Portfolio() {
   const containerStyle = {
@@ -23,6 +25,7 @@ export default function Portfolio() {
       <p>These are just some of the projects I have worked on.</p>
       <div style={containerStyle}>
         <a href="https://github.com/JuanMartinez503/Movie-Search-Engine.git">
+          
           Movie
         </a>
         <img id="moviemagic" src={movie} alt="Movie" style={imageStyle} />
