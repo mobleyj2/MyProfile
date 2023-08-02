@@ -1,5 +1,7 @@
 
 
+
+
 #root {
   margin-top:10 ;
   margin: 0 auto;
@@ -7,9 +9,6 @@
   text-align: left;
   color: rgb(1, 0, 0);
   font-size: 107%;
-
-
-  
 }
 ul {
   font-style: italic;
@@ -22,6 +21,7 @@ body {
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed; 
+  background: (Background);
 }
 .logo {
   height: 6em;

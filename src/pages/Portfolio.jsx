@@ -14,7 +14,7 @@ export default function Portfolio() {
   const imageStyle = {
     width: '60%',
     height: 'auto', // Maintains aspect ratio
-   
+    
   };
 
   return (
