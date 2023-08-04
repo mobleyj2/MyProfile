@@ -14,7 +14,7 @@ export default function Resume() {
 
   return (
     <div>
-      <h1>Resume</h1>
+      <h1>Resume1</h1>
       <p></p>
       <div style={containerStyle}>
         <a href="/src/pages/resume23.pdf" target="_blank" rel="Resume23">
