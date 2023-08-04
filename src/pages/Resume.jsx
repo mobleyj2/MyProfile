@@ -17,10 +17,10 @@ export default function Resume() {
       <h1>Resume</h1>
       <p></p>
       <div style={containerStyle}>
-        <a href="/components/resume23.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="src/pages/resume23.pdf" target="_blank" rel="Resume23">
           Resume
         </a>
-        <embed src="./components/resume23.pdf" type="application/pdf" style={pdfStyle} />
+        <embed src="src/pages/resume23.pdf" type="application/pdf" style={pdfStyle} />
       </div>
       <br />
     </div>
