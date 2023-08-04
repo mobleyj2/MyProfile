@@ -14,13 +14,13 @@ export default function Resume() {
 
   return (
     <div>
-      <h1>Resume1</h1>
+      <h1>Resume</h1>
       <p></p>
       <div style={containerStyle}>
-        <a href="/src/pages/resume23.pdf" target="_blank" rel="Resume23">
+        <a href="/src/pages/resume23.pdf" target={resume23} rel="resume23.pdf">
           Resume
         </a>
-        <embed src="/src/pages/resume23.pdf" type="application/pdf" style={pdfStyle} />
+        <embed src="/src/pages/resume23.pdf" type={resume23} style={pdfStyle} />
       </div>
       <br />
     </div>
