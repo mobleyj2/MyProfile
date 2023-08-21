@@ -1,4 +1,4 @@
-import resume23 from '/src/pages/resume23.pdf';
+import resume23 from 'C:/Users/moble/OneDrive/Desktop/resume23.pdf';
 
 export default function Resume() {
   const containerStyle = {
